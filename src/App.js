@@ -47,7 +47,7 @@ function Button({ className, text, url = "#" }) {
   return (
     <a
       href={url}
-      className={`${className} py-3 px-6 bg-purple-400 hover:bg-purple-300 text-purple-800 hover:text-purple-900 block rounded text-center shadow flex items-center justify-center leading-snug text-xs transition ease-in duration-150`}
+      className={`${className} py-3 px-6 bg-black-400 hover:bg-purple-300 text-purple-800 hover:text-purple-900 block rounded text-center shadow flex items-center justify-center leading-snug text-xs transition ease-in duration-150`}
     >
       {text}
     </a>
